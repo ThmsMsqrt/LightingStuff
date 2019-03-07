@@ -17,10 +17,8 @@ MonoBehaviour:
   - {fileID: 114311885267423772}
   - {fileID: 114708297724306752}
   - {fileID: 114874573092627998}
-  - {fileID: 114623432644760266}
   - {fileID: 114396390620683332}
   - {fileID: 114643719786012012}
-  - {fileID: 114479648279360836}
 --- !u!114 &114311885267423772
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -42,7 +40,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.2
+    value: 0.5
   color:
     overrideState: 0
     value: {r: 0, g: 0, b: 0, a: 1}
@@ -59,11 +57,11 @@ MonoBehaviour:
     overrideState: 0
     value: -12
   thicknessModifier:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 1.57
   directLightingStrength:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 0.592
   radius:
     overrideState: 0
     value: 0.25
@@ -97,71 +95,6 @@ MonoBehaviour:
     value: 50
   kernelSize:
     overrideState: 0
-    value: 1
---- !u!114 &114479648279360836
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a34fa72bd4185749832024e9c8010bf, type: 3}
-  m_Name: ScreenSpaceReflections
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  preset:
-    overrideState: 1
-    value: 6
-  maximumIterationCount:
-    overrideState: 0
-    value: 16
-  resolution:
-    overrideState: 0
-    value: 0
-  thickness:
-    overrideState: 0
-    value: 8
-  maximumMarchDistance:
-    overrideState: 0
-    value: 100
-  distanceFade:
-    overrideState: 0
-    value: 0.5
-  vignette:
-    overrideState: 0
-    value: 0.5
---- !u!114 &114623432644760266
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
-  m_Name: Grain
-  m_EditorClassIdentifier: 
-  active: 0
-  enabled:
-    overrideState: 1
-    value: 1
-  colored:
-    overrideState: 1
-    value: 1
-  intensity:
-    overrideState: 1
-    value: 1
-  size:
-    overrideState: 1
-    value: 3
-  lumContrib:
-    overrideState: 1
     value: 1
 --- !u!114 &114643719786012012
 MonoBehaviour:
@@ -231,11 +164,11 @@ MonoBehaviour:
     value: 0
   dirtTexture:
     overrideState: 1
-    value: {fileID: 2800000, guid: 3884f7a2d04ffe8409ad9200b275896f, type: 3}
+    value: {fileID: 2800000, guid: 7a051dbda2d7bc447bee412427cd311e, type: 3}
     defaultState: 1
   dirtIntensity:
     overrideState: 1
-    value: 100
+    value: 20
 --- !u!114 &114737764406943082
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -289,7 +222,7 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 1
-    value: 5
+    value: 10
   tint:
     overrideState: 1
     value: 5
@@ -301,7 +234,7 @@ MonoBehaviour:
     value: 0
   saturation:
     overrideState: 1
-    value: 0
+    value: 15
   brightness:
     overrideState: 0
     value: 0
